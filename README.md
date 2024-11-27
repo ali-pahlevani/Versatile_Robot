@@ -6,7 +6,7 @@ This repository contains the **Versatile Robot**, a mobile manipulator capable o
 ([Rishikesh Jadhav's GitHub Repository](https://github.com/Rishikesh-Jadhav/Mobile-Manipulator-Robot-modeling-and-simulation-using-Gazebo-ROS-Noetic-)).
 
 
-**DOF (9)** = Robotic arm DoF (6) + Mobile robot DoF (3)
+**DOF (9)** = Robotic arm DoF **(6)** + Mobile robot DoF **(3)**
 
 ![imp](https://github.com/user-attachments/assets/3a7a8957-02ba-49c8-95f0-2de73890a46b)
 
@@ -26,7 +26,7 @@ This repository contains the **Versatile Robot**, a mobile manipulator capable o
    - Configured the **[move_base](http://wiki.ros.org/move_base)** package for autonomous navigation and obstacle avoidance.
 
 4. **Manipulation**:
-   - Implemented motion planning and manipulation using the **MoveIt!** package.
+   - Implemented motion planning and manipulation using the **[MoveIt!](https://github.com/moveit/moveit)** framework.
 
 5. **New Simulation Environment**:
    - Added an obstacle-rich environment for the robot to navigate, inspired by the **CPR Obstacle World** package (https://github.com/clearpathrobotics/cpr_gazebo/tree/noetic-devel/cpr_obstacle_gazebo).
