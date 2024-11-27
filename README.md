@@ -68,7 +68,6 @@ This repository contains the **Versatile Robot**, a mobile manipulator capable o
    ```bash
    sudo apt-get install ros-noetic-move-base
 
-
 ---
 ## Installation and Usage
 
