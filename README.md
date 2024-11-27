@@ -2,7 +2,7 @@
 
 **A Mobile Manipulator with Advanced Capabilities**
 
-This repository contains the **Versatile Robot**, a mobile manipulator capable of navigation, SLAM, and manipulation tasks. This robot is an advanced version of the robot originally developed by **Rishikesh Jadhav** during his project at the University of Maryland. His foundational work has made this project possible
+This repository contains the **Versatile Robot**, a mobile manipulator capable of **Navigation**, **SLAM**, and **Manipulation** tasks. This robot is an advanced version of the robot originally developed by **Rishikesh Jadhav** during his project at the University of Maryland. His foundational work has made this project possible
 ([Rishikesh Jadhav's GitHub Repository](https://github.com/Rishikesh-Jadhav/Mobile-Manipulator-Robot-modeling-and-simulation-using-Gazebo-ROS-Noetic-)).
 
 
