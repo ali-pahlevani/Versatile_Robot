@@ -20,7 +20,7 @@ This repository contains the **Versatile Robot**, a mobile manipulator capable o
    - Added a **Stereo Camera** for future vision-based capabilities.
 
 2. **SLAM Capability**:
-   - Enabled **Simultaneous Localization and Mapping (SLAM)** using ROS packages.
+   - Enabled Simultaneous Localization and Mapping (SLAM) using **[slam_toolbox](https://github.com/SteveMacenski/slam_toolbox)**.
 
 3. **Autonomous Navigation**:
    - Configured the **Move Base** package for autonomous navigation and obstacle avoidance.
