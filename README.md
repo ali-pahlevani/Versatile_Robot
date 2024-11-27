@@ -76,7 +76,7 @@ In the **second terminal**, choose **one of the following** based on your task:
 
 - For **SLAM**
    ```bash
-   roslaunch robot_arm main_Launch.launch
+   roslaunch robot_arm map_Robot.launch
 
 ![n_3](https://github.com/user-attachments/assets/e18bbf94-1f40-4694-be2f-4082ec7a6f64)
 
