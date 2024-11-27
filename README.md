@@ -55,3 +55,8 @@ This repository contains the **Versatile Robot**, a mobile manipulator capable o
    ```bash
    git clone <your-repo-link>
    cd versatile_robot
+
+1. **Clone the Repository**:
+   ```bash
+   git clone <your-repo-link>
+   cd versatile_robot
