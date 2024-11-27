@@ -88,7 +88,9 @@ In the second terminal, choose **one of the following** based on your task:
 - **Optional**: To work only with the **MoveIt!** motion planning plugin in RViz
    ```bash
    roslaunch robot_arm arm_Demo.launch
-   
 
+![n_2](https://github.com/user-attachments/assets/e437355f-ccb2-4325-aa70-3c0d532e12fa)
+
+   
 
 
