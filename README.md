@@ -69,15 +69,15 @@ This loads the world in Gazebo, spawns the robot, and initializes the controller
 
 In another terminal, launch one of the following files depending on your desired operation:
 
-*For SLAM*:
+**For SLAM**:
    ```bash
    roslaunch robot_arm map_Robot.launch
 
-*For Navigation Only*:
+**For Navigation Only**:
    ```bash
    roslaunch robot_arm navigate_Robot.launch
 
-*For Navigation and Manipulation*:
+**For Navigation and Manipulation**:
    ```bash
    roslaunch robot_arm navigate_Manipulate_Robot.launch
 
