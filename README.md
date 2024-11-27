@@ -29,7 +29,7 @@ This repository contains the **Versatile Robot**, a mobile manipulator capable o
    - Implemented motion planning and manipulation using the **[MoveIt!](https://github.com/moveit/moveit)** framework.
 
 5. **New Simulation Environment**:
-   - Added an obstacle-rich environment for the robot to navigate, inspired by the **CPR Obstacle World** package (https://github.com/clearpathrobotics/cpr_gazebo/tree/noetic-devel/cpr_obstacle_gazebo).
+   - Added an obstacle-rich environment for the robot to navigate, inspired by the **[CPR Obstacle World](https://github.com/clearpathrobotics/cpr_gazebo/tree/noetic-devel/cpr_obstacle_gazebo)** package.
 
 ---
 
