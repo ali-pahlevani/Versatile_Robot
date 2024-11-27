@@ -68,7 +68,8 @@ In one terminal, launch the main simulation:
 This loads the world in Gazebo, spawns the robot, and initializes the controllers.
 
 In another terminal, launch one of the following files depending on your desired operation:
-*Camera for Manipulation*:
+
+*For SLAM*:
    ```bash
    roslaunch robot_arm map_Robot.launch
 
