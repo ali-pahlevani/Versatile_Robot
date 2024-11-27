@@ -1,0 +1,56 @@
+arm_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - shoulder_pan_joint
+    - shoulder_roll_joint
+    - elbow_pan_joint
+    - elbow_pitch_joint
+    - gripper_pan_joint
+    - gripper_pitch_joint
+  gains:
+    shoulder_pan_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    shoulder_roll_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    elbow_pan_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    elbow_pitch_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    gripper_pan_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    gripper_pitch_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+gripper_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - left_gripper_joint
+    - right_gripper_joint
+  gains:
+    left_gripper_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    right_gripper_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
