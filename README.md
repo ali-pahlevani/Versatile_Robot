@@ -62,4 +62,24 @@ This repository contains the **Versatile Robot**, a mobile manipulator capable o
    source devel/setup.bash
 
 3. **Launch the Simulation**:
+In one terminal, launch the main simulation:
+   ```bash
+   roslaunch robot_arm main_Launch.launch
+This loads the world in Gazebo, spawns the robot, and initializes the controllers.
 
+In another terminal, launch one of the following files depending on your desired operation:
+*Camera for Manipulation*:
+   ```bash
+   roslaunch robot_arm map_Robot.launch
+
+*For Navigation Only*:
+   ```bash
+   roslaunch robot_arm navigate_Robot.launch
+
+*For Navigation and Manipulation*:
+   ```bash
+   roslaunch robot_arm navigate_Manipulate_Robot.launch
+
+#Optional: To work only with the MoveIt! motion planning plugin in RViz:
+   ```bash
+   roslaunch robot_arm arm_Demo.launch
