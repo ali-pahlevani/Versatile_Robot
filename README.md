@@ -79,6 +79,8 @@ In the second terminal, choose **one of the following** based on your task:
    ```bash
    roslaunch robot_arm navigate_Robot.launch
 
+![4](https://github.com/user-attachments/assets/93dbf694-b60d-488e-b416-ccc181df17fc)
+
 - For For **Navigation** and **Manipulation**
    ```bash
    roslaunch robot_arm navigate_Manipulate_Robot.launch
