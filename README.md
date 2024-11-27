@@ -1,66 +1,57 @@
-Versatile Robot
-A Mobile Manipulator with Advanced Capabilities
+# Versatile Robot
 
-This repository contains the Versatile Robot, a mobile manipulator capable of navigation, SLAM, and manipulation tasks. This robot is an advanced version of the robot originally developed by Rishikesh Jadhav during his project at the University of Maryland. His foundational work has made this project possible.
+**A Mobile Manipulator with Advanced Capabilities**
 
-Reference: Rishikesh Jadhav's GitHub Repository
+This repository contains the **Versatile Robot**, a mobile manipulator capable of navigation, SLAM, and manipulation tasks. This robot is an advanced version of the robot originally developed by **Rishikesh Jadhav** during his project at the University of Maryland. His foundational work has made this project possible.
 
-Features Added
-Sensors:
+**Reference**: [Rishikesh Jadhav's GitHub Repository](#add-github-link-here)
 
-Integrated a 2D LiDAR for mapping and localization.
-Added a Stereo Camera for future vision-based capabilities.
-SLAM Capability:
+---
 
-Enabled Simultaneous Localization and Mapping (SLAM) using ROS packages.
-Autonomous Navigation:
+## Features Added
 
-Configured the Move Base package for autonomous navigation and obstacle avoidance.
-Manipulation:
+1. **Sensors**:
+   - Integrated a **2D LiDAR** for mapping and localization.
+   - Added a **Stereo Camera** for future vision-based capabilities.
 
-Implemented motion planning and manipulation using the MoveIt! package.
-New Simulation Environment:
+2. **SLAM Capability**:
+   - Enabled **Simultaneous Localization and Mapping (SLAM)** using ROS packages.
 
-Added an obstacle-rich environment for the robot to navigate, inspired by the CPR Obstacle World package.
-What’s Coming Next
-Camera for Manipulation:
+3. **Autonomous Navigation**:
+   - Configured the **Move Base** package for autonomous navigation and obstacle avoidance.
 
-Adding a camera to the manipulator for visual manipulation.
-Visual Odometry:
+4. **Manipulation**:
+   - Implemented motion planning and manipulation using the **MoveIt!** package.
 
-Enhancing the robot’s localization with Visual-Odometry capabilities.
-Physical Upgrades:
+5. **New Simulation Environment**:
+   - Added an obstacle-rich environment for the robot to navigate, inspired by the **CPR Obstacle World** package.
 
-Improving the robot’s physical hardware, such as better wheels and structural enhancements.
-Transition to ROS2:
+---
 
-Upgrading the robot’s software stack to ROS2 for better performance and scalability.
-More Enhancements:
+## What’s Coming Next
 
-Additional exciting features are planned—stay tuned!
-Installation and Usage
-To set up and use the Versatile Robot in your workspace, follow these steps:
+1. **Camera for Manipulation**:
+   - Adding a camera to the manipulator for **visual manipulation**.
 
-Clone the Repository:
+2. **Visual Odometry**:
+   - Enhancing the robot’s localization with **Visual-Odometry** capabilities.
 
-bash
-Copy code
-git clone <your-repo-link>  
-cd versatile_robot  
-Build the Workspace:
+3. **Physical Upgrades**:
+   - Improving the robot’s physical hardware, such as **better wheels** and structural enhancements.
 
-bash
-Copy code
-catkin_make  
-source devel/setup.bash  
-Launch the Simulation:
+4. **Transition to ROS2**:
+   - Upgrading the robot’s software stack to **ROS2** for better performance and scalability.
 
-Use the included launch files to test different features:
-Manipulation Demo:
-bash
-Copy code
-roslaunch robot_arm arm_Demo.launch  
-SLAM and Navigation:
-bash
-Copy code
-roslaunch robot_arm navigate_Robot.launch  
+5. **More Enhancements**:
+   - Additional exciting features are planned—stay tuned!
+
+---
+
+## Installation and Usage
+
+**To set up and use the Versatile Robot in your workspace, follow these steps:**
+
+1. **Clone the Repository**:
+   ```bash
+   git clone <your-repo-link>
+   cd versatile_robot
