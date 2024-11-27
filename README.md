@@ -73,14 +73,12 @@ In the second terminal, choose **one of the following** based on your task:
    ```bash
    roslaunch robot_arm main_Launch.launch
 
-
 ![n_3](https://github.com/user-attachments/assets/e18bbf94-1f40-4694-be2f-4082ec7a6f64)
 
 
 - For **Navigation** Only
    ```bash
    roslaunch robot_arm navigate_Robot.launch
-
 
 ![n_1](https://github.com/user-attachments/assets/65c851ca-0b16-468f-ba7e-72c17ddc7ce4)
 
@@ -92,7 +90,6 @@ In the second terminal, choose **one of the following** based on your task:
 - **Optional**: To work only with the **MoveIt!** motion planning plugin in RViz
    ```bash
    roslaunch robot_arm arm_Demo.launch
-
 
 ![n_2](https://github.com/user-attachments/assets/e437355f-ccb2-4325-aa70-3c0d532e12fa)
 
