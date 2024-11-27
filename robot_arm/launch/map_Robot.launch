@@ -1,0 +1,18 @@
+<launch>
+  <arg name="rvizconfig" default="$(find robot_arm)/rviz/rvizMapping.rviz"/>
+
+  <node pkg="slam_toolbox" type="async_slam_toolbox_node" name="slam_toolbox" output="screen">
+    <!-- Parameters -->
+    <param name="use_sim_time" value="true"/> <!-- If running in simulation -->
+    <param name="odom_frame" value="odom"/>
+    <param name="base_frame" value="chassis"/>
+    <param name="map_frame" value="map"/>
+    <param name="scan_topic" value="/scan"/>
+    <param name="max_laser_range" value="8.0"/>
+    <param name="mode" value="mapping"/>
+  </node>
+
+  <!-- Launch Rviz -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)"/>
+
+</launch>

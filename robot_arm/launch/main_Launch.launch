@@ -1,0 +1,40 @@
+<launch>
+
+  <arg name="model" default="$(find robot_arm)/urdf/robot_arm_servo.urdf.xacro"/>
+
+  <!-- Launch gazebo -->
+  <include file="$(find robot_arm)/launch/gazebo_worlds/gazebo_obstacle_edited.launch">
+  <!-- <include file="$(find robot_arm)/launch/gazebo_worlds/gazebo_crowded.launch"> -->
+  <!-- <include file="$(find robot_arm)/launch/gazebo_worlds/gazebo_obstacle.launch"> -->
+  <!-- <include file="$(find robot_arm)/launch/gazebo_worlds/gazebo_wall.launch"> -->
+
+    <arg name="model" value="$(arg model)"/>
+  </include> 
+
+  <!-- Load joint controller configurations from YAML files to parameter server -->
+  <rosparam file="$(find moveit_arm)/config/ros_controllers.yaml" command="load"/>
+  <rosparam file="$(find robot_arm)/config/control/diff_drive.yaml" command="load"/>
+  <rosparam file="$(find robot_arm)/config/control/joint_states.yaml" command="load"/>
+
+  <!-- Load the controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="true"
+    output="screen" args="/Robot_Arm/joint_state_controller
+                          /Robot_Arm/Robot_arm_diffdrive_controller
+                          arm_controller
+                          gripper_controller
+                        --shutdown-timeout 3"/>
+
+  <!-- Convert joint states to TF transforms for rviz, etc -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+      respawn="false" output="screen">
+  </node>
+
+  <!-- Static transform between dummy and chassis -->
+  <node pkg="tf2_ros" type="static_transform_publisher" name="dummy_to_chassis" args="0 0 0 0 0 0 1 chassis dummy" />
+
+  <!-- Launch RQT Robot Steering -->
+  <node name="rqt_robot_steering" pkg="rqt_robot_steering" type="rqt_robot_steering">
+    <param name="default_topic" value="/Robot_Arm/Robot_arm_diffdrive_controller/cmd_vel"/> 
+  </node>
+
+</launch>

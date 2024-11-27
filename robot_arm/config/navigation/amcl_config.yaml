@@ -1,0 +1,42 @@
+amcl:
+  # General AMCL Parameters
+  odom_frame_id: "odom"
+  base_frame_id: "chassis"
+  global_frame_id: "map"
+  use_map_topic: true
+  min_particles: 500
+  max_particles: 5000
+  particles: 500
+  
+  # Update Rate (Hz)
+  update_min_d: 0.1
+  update_min_a: 0.1
+  resample_interval: 2
+  
+  # Sensor Parameters
+  laser_model_type: "likelihood_field"
+  laser_max_range: 8.0 
+  laser_min_range: 0.1 
+  laser_scan_topic: "/scan"
+  
+  # Odometry Parameters
+  odom_model_type: "diff_drive"
+  odom_alpha1: 0.1
+  odom_alpha2: 0.1
+  odom_alpha3: 0.1
+  odom_alpha4: 0.1
+  transform_tolerance: 1.0
+  
+  # AMCL Laser Parameters
+  likelihood_field_max_dist: 2.5
+  laser_lambda_short: 0.1
+  laser_lambda_max: 1.0
+  laser_z_hit: 0.5
+  laser_z_rand: 0.5
+  
+  # Map Update Rate
+  transform_timeout: 10.0
+  reinitialize_time: 30.0
+  
+  # Debugging (optional)
+  debug: false
