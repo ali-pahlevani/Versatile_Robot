@@ -51,7 +51,25 @@ This repository contains the **Versatile Robot**, a mobile manipulator capable o
    - Additional exciting features are planned—stay tuned!
 
 ---
+## Prerequisites
 
+- This project is developed for **ROS1** (tested on **Noetic**) and is planned to be **upgraded** to ROS2 in future iterations.
+
+1. **Install MoveIt**:
+   ```bash
+   sudo apt-get update
+   sudo apt-get install ros-noetic-moveit
+
+2. **Install SLAM Toolbox**:
+   ```bash
+   sudo apt-get install ros-noetic-slam-toolbox
+
+3. **Install Move Base**:
+   ```bash
+   sudo apt-get install ros-noetic-move-base
+
+
+---
 ## Installation and Usage
 
 **To set up and use the Versatile Robot in your workspace, follow these steps:**
@@ -98,6 +116,10 @@ In the **second terminal**, choose **one of the following** based on your task:
 - **Optional**: To work only with the **MoveIt!** motion planning plugin in RViz
    ```bash
    roslaunch robot_arm arm_Demo.launch
+
+- To adapt the motion planning of the Arm to your needs, you can use **MoveIt Setup Assistant**
+   ```bash
+   roslaunch moveit_setup_assistant setup_assistant.launch
 
 ![n_2](https://github.com/user-attachments/assets/e437355f-ccb2-4325-aa70-3c0d532e12fa)
 
