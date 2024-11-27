@@ -67,7 +67,7 @@ This repository contains the **Versatile Robot**, a mobile manipulator capable o
    source devel/setup.bash
 
 3. **Launch the Simulation**: 
-In **one terminal**, launch the main simulation:
+In one terminal, launch the main simulation:
    ```bash
    roslaunch robot_arm main_Launch.launch
 This loads the world in Gazebo, spawns the robot, and initializes the controllers.
