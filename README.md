@@ -6,6 +6,9 @@ This repository contains the **Versatile Robot**, a mobile manipulator capable o
 
 **Reference**: [Rishikesh Jadhav's GitHub Repository](https://github.com/Rishikesh-Jadhav/Mobile-Manipulator-Robot-modeling-and-simulation-using-Gazebo-ROS-Noetic-)
 
+![imp](https://github.com/user-attachments/assets/3a7a8957-02ba-49c8-95f0-2de73890a46b)
+
+
 ---
 
 ## Features Added
