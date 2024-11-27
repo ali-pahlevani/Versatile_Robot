@@ -73,6 +73,8 @@ In the second terminal, choose **one of the following** based on your task:
    ```bash
    roslaunch robot_arm main_Launch.launch
 
+![3](https://github.com/user-attachments/assets/090b51d3-8a7e-45ce-9d7a-e0ac4e7aa66a)
+
 - For **Navigation** Only
    ```bash
    roslaunch robot_arm navigate_Robot.launch
