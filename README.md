@@ -66,8 +66,7 @@ This repository contains the **Versatile Robot**, a mobile manipulator capable o
    catkin_make
    source devel/setup.bash
 
-3. **Launch the Simulation**:
-   
+3. **Launch the Simulation**: 
 In one terminal, launch the main simulation:
    ```bash
    roslaunch robot_arm main_Launch.launch
