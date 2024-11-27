@@ -116,7 +116,7 @@ In the **second terminal**, choose **one of the following** based on your task:
    ```bash
    roslaunch robot_arm arm_Demo.launch
 
-- To adapt the **Motion Planning** of the Arm to your needs, you can use **MoveIt Setup Assistant**
+- To adapt the **Motion Planning** settings of the Arm to your needs, you can use **MoveIt Setup Assistant**
    ```bash
    roslaunch moveit_setup_assistant setup_assistant.launch
 
