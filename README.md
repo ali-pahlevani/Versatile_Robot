@@ -4,7 +4,7 @@
 
 This repository contains the **Versatile Robot**, a mobile manipulator capable of navigation, SLAM, and manipulation tasks. This robot is an advanced version of the robot originally developed by **Rishikesh Jadhav** during his project at the University of Maryland. His foundational work has made this project possible.
 
-**Reference**: [Rishikesh Jadhav's GitHub Repository](#add-github-link-here)
+**Reference**: [Rishikesh Jadhav's GitHub Repository](#https://github.com/Rishikesh-Jadhav/Mobile-Manipulator-Robot-modeling-and-simulation-using-Gazebo-ROS-Noetic-)
 
 ---
 
@@ -53,10 +53,13 @@ This repository contains the **Versatile Robot**, a mobile manipulator capable o
 
 1. **Clone the Repository**:
    ```bash
-   git clone <your-repo-link>
-   cd versatile_robot
+   git clone https://github.com/ali-pahlevani/Versatile_Robot.git
+   cd Versatile_Robot
 
-1. **Clone the Repository**:
+2. **Build the Workspace**:
    ```bash
-   git clone <your-repo-link>
-   cd versatile_robot
+   catkin_make
+   source devel/setup.bash
+
+3. **Launch the Simulation**:
+
