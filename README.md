@@ -123,4 +123,4 @@ In the **second terminal**, choose **one of the following** based on your task:
 ![n_2](https://github.com/user-attachments/assets/e437355f-ccb2-4325-aa70-3c0d532e12fa)
 
    
-## If you have any question about anything, please feel free to ask! ##
+## If you have any question about any part, please feel free to ask! ##
