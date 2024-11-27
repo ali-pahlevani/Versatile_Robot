@@ -23,7 +23,7 @@ This repository contains the **Versatile Robot**, a mobile manipulator capable o
    - Enabled Simultaneous Localization and Mapping (SLAM) using **[slam_toolbox](https://github.com/SteveMacenski/slam_toolbox)**.
 
 3. **Autonomous Navigation**:
-   - Configured the **Move Base** package for autonomous navigation and obstacle avoidance.
+   - Configured the **[move_base](http://wiki.ros.org/move_base)** package for autonomous navigation and obstacle avoidance.
 
 4. **Manipulation**:
    - Implemented motion planning and manipulation using the **MoveIt!** package.
