@@ -85,5 +85,5 @@ In the second terminal, choose **one of the following** based on your task:
    ```bash
    roslaunch robot_arm arm_Demo.launch
    
-![2](https://github.com/user-attachments/assets/27364ea0-716c-4a79-abab-018beeb30749)
+![2](https://github.com/user-attachments/assets/da079a67-e030-4c8d-ab69-175d6d6cb5d7)
 
