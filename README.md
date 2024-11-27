@@ -67,28 +67,4 @@ In one terminal, launch the main simulation:
    roslaunch robot_arm main_Launch.launch
 This loads the world in Gazebo, spawns the robot, and initializes the controllers.
 
-In another terminal, launch one of the following files depending on your desired operation:
-
-## Launch the Simulation
-
-To run the simulation and switch between different functionalities, use the following commands in separate terminals:
-
-
-# Terminal 2: Choose one of the following based on your task:
-
-# For SLAM
-roslaunch robot_arm map_Robot.launch
-
-# For Navigation Only
-roslaunch robot_arm navigate_Robot.launch
-
-# For Navigation and Manipulation
-roslaunch robot_arm navigate_Manipulate_Robot.launch
-
-# Optional: To work only with the MoveIt! motion planning plugin in RViz
-roslaunch robot_arm arm_Demo.launch
-
-
-#Optional: To work only with the MoveIt! motion planning plugin in RViz:
-   ```bash
-   roslaunch robot_arm arm_Demo.launch
+In the second terminal, choose one of the following based on your task:
