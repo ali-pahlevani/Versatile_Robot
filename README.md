@@ -73,14 +73,14 @@ In the second terminal, choose one of the following based on your task:
    ```bash
    roslaunch robot_arm main_Launch.launch
 
-- For SLAM
+- For Navigation Only
    ```bash
-   roslaunch robot_arm main_Launch.launch
+   roslaunch robot_arm navigate_Robot.launch
 
-- For SLAM
+- For For Navigation and Manipulation
    ```bash
-   roslaunch robot_arm main_Launch.launch
+   roslaunch robot_arm navigate_Manipulate_Robot.launch
 
-- For SLAM
+- Optional: To work only with the MoveIt! motion planning plugin in RViz
    ```bash
-   roslaunch robot_arm main_Launch.launch
+   roslaunch robot_arm arm_Demo.launch
