@@ -159,7 +159,7 @@
           <geometry>
             <mesh>
               <scale>1.5 1.5 1</scale>
-              <uri>/home/alip2/mobile_manipulator_ws/src/cpr_obstacle_gazebo/models/obstacle_world.stl</uri>
+              <uri>package://cpr_obstacle_gazebo/models/obstacle_world.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -181,7 +181,7 @@
           <geometry>
             <mesh>
               <scale>1.5 1.5 1</scale>
-              <uri>/home/alip2/mobile_manipulator_ws/src/cpr_obstacle_gazebo/models/obstacle_world.stl</uri>
+              <uri>package://cpr_obstacle_gazebo/models/obstacle_world.stl</uri>
             </mesh>
           </geometry>
           <material>
